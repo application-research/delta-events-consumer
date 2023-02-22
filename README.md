@@ -1,4 +1,4 @@
-# delta-event-consumer
+# Delta Event Consumer
 
 Delta event consumer ingest messages from Delta (via DeltaDB models) and persist data to a time-series database.
 
