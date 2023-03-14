@@ -2,10 +2,9 @@ module github.com/application-research/delta-events-consumer
 
 go 1.19
 
-replace github.com/application-research/delta-db => ../delta-events
 
 require (
-	github.com/application-research/delta-db v0.0.0-20230224153134-e28b704b4e57
+	github.com/application-research/delta-db v0.0.1
 	github.com/nsqio/go-nsq v1.1.0
 	gorm.io/driver/postgres v1.4.8
 	gorm.io/driver/sqlite v1.4.4
