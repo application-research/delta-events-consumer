@@ -88,6 +88,11 @@ func main() {
 			var logEvent messaging.LogEvent
 			transcode(baseLogEvent, &logEvent)
 			db.Create(&logEvent)
+		case "InstanceMetaLog":
+			baseInstanceMetaLog := baseMessage.Object.(map[string]interface{})
+			var instanceMetaLog db_models.InstanceMetaLog
+			transcode(baseInstanceMetaLog, &instanceMetaLog)
+			db.Create(&instanceMetaLog)
 		default:
 			log.Printf("Unknown message type: %v", baseMessage.ObjectType)
 		}

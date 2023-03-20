@@ -30,5 +30,5 @@ func OpenDatabase(dbDsn string) (*gorm.DB, error) {
 }
 
 func ConfigureModels(db *gorm.DB) {
-	db.AutoMigrate(&db_models.DeltaStartupLogs{}, &messaging.LogEvent{}, &db_models.ContentLog{}, &db_models.PieceCommitmentLog{}, &db_models.ContentDealLog{}, &db_models.ContentDealProposalLog{}, &db_models.ContentDealProposalParametersLog{}, &db_models.ContentWalletLog{}, &db_models.ContentMinerLog{}, &db_models.PieceCommitmentLog{}, &db_models.ContentWalletLog{}, &db_models.WalletLog{})
+	db.AutoMigrate(&db_models.DeltaStartupLogs{}, &messaging.LogEvent{}, &db_models.ContentLog{}, &db_models.PieceCommitmentLog{}, &db_models.ContentDealLog{}, &db_models.ContentDealProposalLog{}, &db_models.ContentDealProposalParametersLog{}, &db_models.ContentWalletLog{}, &db_models.ContentMinerLog{}, &db_models.PieceCommitmentLog{}, &db_models.ContentWalletLog{}, &db_models.WalletLog{}, &db_models.InstanceMetaLog{})
 }
