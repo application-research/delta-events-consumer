@@ -40,6 +40,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
 github.com/application-research/delta-db v0.0.2-0.20230320045601-b0c6a5f033ee h1:YAZyFz45cfgJCx7YqchI+jFTLvjz/SejP8n/crxJJW8=
 github.com/application-research/delta-db v0.0.2-0.20230320045601-b0c6a5f033ee/go.mod h1:LkFnhccvtKmSNHCatQNlKNjEAV/30w/e50n+A9hzCaU=
+github.com/application-research/delta-db v0.0.2-0.20230322102216-fe7920b79230 h1:/PLLD+iP5FUPyrCkLUbC03hqd/7xzRYK/Y1ucGEW/jo=
+github.com/application-research/delta-db v0.0.2-0.20230322102216-fe7920b79230/go.mod h1:LkFnhccvtKmSNHCatQNlKNjEAV/30w/e50n+A9hzCaU=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=

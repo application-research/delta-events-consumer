@@ -3,7 +3,7 @@ module github.com/application-research/delta-events-consumer
 go 1.19
 
 require (
-	github.com/application-research/delta-db v0.0.2-0.20230320045601-b0c6a5f033ee
+	github.com/application-research/delta-db v0.0.2-0.20230322102216-fe7920b79230
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/spf13/viper v1.15.0
 	gorm.io/driver/postgres v1.4.8
