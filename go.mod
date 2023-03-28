@@ -3,7 +3,7 @@ module github.com/application-research/delta-events-consumer
 go 1.19
 
 require (
-	github.com/application-research/delta-db v0.0.2-0.20230322102216-fe7920b79230
+	github.com/application-research/delta-db v0.0.2-0.20230328110913-3c40abd40579
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/spf13/viper v1.15.0
 	gorm.io/driver/postgres v1.4.8
@@ -15,6 +15,7 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/ip2location/ip2location-go/v9 v9.5.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
 	github.com/jackc/pgx/v5 v5.3.0 // indirect
