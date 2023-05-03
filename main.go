@@ -93,6 +93,16 @@ func main() {
 			var instanceMetaLog db_models.InstanceMetaLog
 			transcode(baseInstanceMetaLog, &instanceMetaLog)
 			db.Create(&instanceMetaLog)
+		case "BatchImportLog":
+			baseInstanceMetaLog := baseMessage.Object.(map[string]interface{})
+			var batchImportLog db_models.BatchImportLog
+			transcode(baseInstanceMetaLog, &batchImportLog)
+			db.Create(&batchImportLog)
+		case "BatchContentLog":
+			baseInstanceMetaLog := baseMessage.Object.(map[string]interface{})
+			var batchContentLog db_models.BatchContentLog
+			transcode(baseInstanceMetaLog, &batchContentLog)
+			db.Create(&batchContentLog)
 		default:
 			log.Printf("Unknown message type: %v", baseMessage.ObjectType)
 		}
