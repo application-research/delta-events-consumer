@@ -98,9 +98,9 @@ func main() {
 			var batchImportLog db_models.BatchImportLog
 			transcode(baseInstanceMetaLog, &batchImportLog)
 			db.Create(&batchImportLog)
-		case "BatchContentLog":
+		case "BatchImportContentLog":
 			baseInstanceMetaLog := baseMessage.Object.(map[string]interface{})
-			var batchContentLog db_models.BatchContentLog
+			var batchContentLog db_models.BatchImportContentLog
 			transcode(baseInstanceMetaLog, &batchContentLog)
 			db.Create(&batchContentLog)
 		default:

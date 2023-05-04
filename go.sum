@@ -44,6 +44,8 @@ github.com/application-research/delta-db v0.0.2-0.20230416042304-c1aecd417eae h1
 github.com/application-research/delta-db v0.0.2-0.20230416042304-c1aecd417eae/go.mod h1:LkFnhccvtKmSNHCatQNlKNjEAV/30w/e50n+A9hzCaU=
 github.com/application-research/delta-db v0.0.2-0.20230503022747-f976c3a96a41 h1:fXybz4kbr5pppEdTGgLdHLb6ry8hq3DsdJ1chY+dMR8=
 github.com/application-research/delta-db v0.0.2-0.20230503022747-f976c3a96a41/go.mod h1:LkFnhccvtKmSNHCatQNlKNjEAV/30w/e50n+A9hzCaU=
+github.com/application-research/delta-db v0.0.2-0.20230504034024-a5e4190148d6 h1:LGMPeFvr8n+gRorQ1mX/PuvdXG4e0wfCLUVebPkyDcI=
+github.com/application-research/delta-db v0.0.2-0.20230504034024-a5e4190148d6/go.mod h1:LkFnhccvtKmSNHCatQNlKNjEAV/30w/e50n+A9hzCaU=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
